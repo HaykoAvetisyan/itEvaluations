@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void create(User user) {
         if (repository.existsByUsername(user.getUsername())) {
-            throw new UserNotFoundException("Пользователь с таким именем уже существует");
+            throw new UserNotFoundException("User already exist");
         }
         save(user);
     }
@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getByUsername(String username) {
         return repository.findByUsername(username)
-                .orElseThrow(() -> new UsernameNotFoundException("Пользователь не найден"));
+                .orElseThrow(() -> new UsernameNotFoundException("User not found"));
 
     }
 

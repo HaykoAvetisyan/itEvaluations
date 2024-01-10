@@ -1,5 +1,6 @@
-package com.example.itevaluations.controller;
+package com.example.itevaluations.controller.impl;
 
+import com.example.itevaluations.controller.LoginController;
 import com.example.itevaluations.dto.JwtAuthenticationResponse;
 import com.example.itevaluations.dto.SignInRequest;
 import com.example.itevaluations.dto.SignUpRequest;
