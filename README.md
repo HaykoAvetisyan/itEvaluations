@@ -1,0 +1,1 @@
+The project revolves around developing an efficient and comprehensive system for the Evaluation of Students' Grades and Performances. This system aims to streamline the process of assessing and analyzing student academic achievements, providing valuable insights to educators, employers, and menthors.
